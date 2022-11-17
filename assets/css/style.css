@@ -59,3 +59,30 @@ header{
 }
 /* header section ends  */
 
+
+/* main section starts  */
+.row h1{
+    font-family: 'Handlee', cursive;
+}
+       #features{
+        padding: 5% 10%;
+        background: #D8D9CF;
+    }
+    .features-col{
+        border: 2px solid #FB2576;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 20px 0;
+        transition: .4s;
+    }
+    .features-col:hover{
+        transform: scale(1.1);
+        box-shadow: 2px 6px 5px black;
+    }
+    .icon-style{
+        background: #FB2576;
+        color: white;
+        padding: 15px;
+        margin: 5px 0;
+    }
+/* main section ends  */
